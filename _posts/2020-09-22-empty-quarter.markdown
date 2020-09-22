@@ -13,7 +13,7 @@ Lately, I have wanted to return to a comfortable place, not with miles but with 
 
 <html>
   <head>
-    <title>Sabah<title>
+    <title>The Empty Quarter<title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
@@ -26,7 +26,7 @@ crossorigin=""></script>
 
 	<style>
       /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
+       /* element that contains the map. */
       #map {
         height: 300px;
         width: 100%
