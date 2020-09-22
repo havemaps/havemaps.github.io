@@ -21,7 +21,7 @@
 title: Have Maps Will Travel
 email: havemaps@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-"100 Days of thoughts and reflections from places and life: a digital art project"
+100 Days of thoughts and reflections from places and life//:// a digital art project
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://havemaps.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: havemaps
