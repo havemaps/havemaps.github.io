@@ -3,6 +3,9 @@ layout: default
 ---
 <h1>{{ page.title }}</h1>
 
+
+<!-- From https://stackoverflow.com/questions/28331879/jekyll-next-and-previous-links-with-different-categories
+
 {% if page.previous %}
   <span class="previous-link">
     <a rel="prev" href="{{ page.previous.url }}">Previous Entry</a>
@@ -13,3 +16,21 @@ layout: default
     <a rel="next" href="{{ page.next.url }}">Next Entry</a>
   </span>
 {% endif %}
+-->
+
+<!-- Testing navigation from https://www.bytedude.com/jekyll-previous-and-next-posts/#the-code
+Don't forget about the css you added!-->
+
+
+<div class="post-nav">
+  <p>
+    {% if page.previous.url %}
+    <a href="{{page.previous.url}}">&#8672;&nbsp;{{page.previous.title}}</a>
+    {% endif %}
+  </p>
+  <p>
+    {% if page.next.url %}
+    <a href="{{page.next.url}}">{{page.next.title}}&nbsp;&#8674;</a>
+    {% endif %}
+  </p>
+</div>
