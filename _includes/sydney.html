@@ -11,7 +11,7 @@
   <!-- Position the map and title with Cascading Style Sheet (.css) -->
   <style>
   body { margin:0; padding:0; }
-  #map { height: 300px;  width: 100% }
+  #map { height: 250px;  width: 100% }
   </style>
 </head>
 <body>
@@ -24,7 +24,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.008640, 28.980186], // EDIT latitude, longitude to re-center map
+    center: [-33.868800, 151.209300], // EDIT latitude, longitude to re-center map
     zoom: 12,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
     scrollWheelZoom: false
   });
@@ -35,8 +35,8 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.008640, 28.980186]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup("Hagia Sophia"); // EDIT pop-up text message
+  L.marker([-33.868800, 151.209300]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup("Sydney"); // EDIT pop-up text message
 
   </script>
 </body>
