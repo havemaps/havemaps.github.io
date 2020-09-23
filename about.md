@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 ## About the project
-Where can we go when we can’t go anywhere? This project seeks to capture escapism and memory with stream of consciousness writing, photography, and maps.
+Where can we go when we can’t go anywhere? This digital storytelling project seeks to capture escapism, memory, and wanderlust with stream of consciousness writing, photography, and maps.
 
 This project is [hosted on GitHub](https://github.com/havemaps/havemaps.github.io) and uses Jekyll sites and Leaflet maps.
 

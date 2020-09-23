@@ -286,13 +286,13 @@ table td { border: 1px solid #e8e8e8; }
 .post-nav p {
     flex: 1 1 0;
     width: 45%;
-}
+}  */
 
-.post-nav p:first-child {
+.previous-link {
     padding-right: 0.5em;
 }
 
-.post-nav p:last-child {
+.next-link {
     padding-left: 0.5em;
     text-align: right;
-}  */
+}
