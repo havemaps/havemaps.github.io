@@ -4,13 +4,41 @@ title:  "The Empty Quarter"
 date:   2020-09-22 9:53:39 +0400
 categories: jekyll update
 ---
-![Lower third is rolling sand dunes. Upper two thirds is a gradient blue sky.](https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-22-thoughts.JPG?raw=true "The Empty Quarter")
+![Lower third is rolling sand dunes. Upper two thirds is a gradient blue sky.](https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-22-empty-quarter.JPG?raw=true "The Empty Quarter")
 
 Lately, I have felt nostalgic for my teenage writing days.
 Something about isolation---of miles and minds---has always tugged me back to old habits. Seven years on, my brain skips like a scratched CD, looking for somewhere safe to land.
 
 Lately, I have wanted to return to a comfortable place, not with miles but with my mind. Feeling both comfort and betrayal in writing, it's becoming impossible to ignore the intrusive thoughts and prods, compartmentalizing has gone on long enough. Broken machinery and cheap reproductions are still part of me if I can only remember how to how to get them moving again.
 
+<html>
+  <head>
+    <title>The Empty Quarter<title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+crossorigin=""/>
+
+<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+crossorigin=""></script>
+
+	<style>
+      /* Always set the map height explicitly to define the size of the div
+       /* element that contains the map. */
+      #map {
+        height: 300px;
+        width: 100%
+        /* For custom height use width:500px;height:500px; inside the #map selector
+        curly brackets. 100% does a full screen map*/
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"

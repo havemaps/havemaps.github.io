@@ -296,19 +296,3 @@ table td { border: 1px solid #e8e8e8; }
     padding-left: 0.5em;
     text-align: right;
 }  */
-
-
-/* Map CSS */
-
-.map {
-  height: 300px;
-  width: 100%
-  /* For custom height use width:500px;height:500px; inside the #map selector
-  curly brackets. 100% does a full screen map*/
-}
-/* Optional: Makes the sample page fill the window. */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
