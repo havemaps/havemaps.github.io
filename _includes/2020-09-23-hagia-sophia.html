@@ -24,7 +24,7 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [22.883823, 53.924234], // EDIT latitude, longitude to re-center map
+    center: [41.008640, 28.980186], // EDIT latitude, longitude to re-center map
     zoom: 12,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
     scrollWheelZoom: false
   });
@@ -35,8 +35,8 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([22.883823, 53.924234]).addTo(map) // EDIT latitude, longitude to re-position marker
-  .bindPopup("The Empty Quarter"); // EDIT pop-up text message
+  L.marker([41.008640, 28.980186]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup("Hagia Sophia"); // EDIT pop-up text message
 
   </script>
 </body>
