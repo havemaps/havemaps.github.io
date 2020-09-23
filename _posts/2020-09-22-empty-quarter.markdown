@@ -11,9 +11,6 @@ Something about isolation---of miles and minds---has always tugged me back to ol
 
 Lately, I have wanted to return to a comfortable place, not with miles but with my mind. Feeling both comfort and betrayal in writing, it's becoming impossible to ignore the intrusive thoughts and prods, compartmentalizing has gone on long enough. Broken machinery and cheap reproductions are still part of me if I can only remember how to how to get them moving again.
 
-<html>
-  <head>
-    <title>The Empty Quarter<title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
@@ -24,9 +21,6 @@ crossorigin=""/>
 integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
 crossorigin=""></script>
 
-
-  </head>
-  <body>
 
 	<div id="map"></div>
     <script>
@@ -43,6 +37,3 @@ crossorigin=""></script>
 		var marker = L.marker(khali).addTo(mymap);
 
     </script>
-
-  </body>
-</html>
