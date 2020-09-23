@@ -24,23 +24,7 @@ crossorigin=""/>
 integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
 crossorigin=""></script>
 
-	<style>
-      /* Always set the map height explicitly to define the size of the div
-       /* element that contains the map. */
-      #map {
-        height: 300px;
-        width: 100%
-        /* For custom height use width:500px;height:500px; inside the #map selector
-        curly brackets. 100% does a full screen map*/
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
 
-    </style>
   </head>
   <body>
 
@@ -57,19 +41,6 @@ crossorigin=""></script>
 		}).addTo(mymap);
 
 		var marker = L.marker(khali).addTo(mymap);
-    /*  marker.bindPopup("<b>Hello world!</b><br>I am a popup.");
-
-  /* Add more locations
-  1) Create new location variable var NAME = [lat, long];
-  2) Create new marker variable var NameMarker = L.marker(NAME).addTo(mymap);
- 3) Create marker popup NameMarker.bindPop("INSERT TEXT AND HTML");
-    var AUBlocation = [33.901048, 35.480588];
-    var AUBmarker = L.marker(AUBlocation).addTo(mymap);
-    AUBmarker.bindPopup("Am I a pop up too");
-
-    var Caramel = [33.895813, 35.482524];
-    var CaramelMarker = L.marker(Caramel).addTo(mymap);
-    CaramelMarker.bindPopup("My hotel!"); */
 
     </script>
 
