@@ -30,9 +30,9 @@ github_username:  havemaps
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Add pagination
-gems: [jekyll-paginate]
 paginate: 2
 
 # Exclude from processing.
