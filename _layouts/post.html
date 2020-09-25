@@ -10,23 +10,10 @@ pagination:
 <br><br>
 
 
-<!-- Testing paginator !-->
-{% if paginator.total_pages > 1 %}
-<ul>
-  {% if paginator.previous_page %}
-  <li>
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li>
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+<!-- Testing paginator includes !-->
+{% include pagination.html %}
 
-<!-- From https://stackoverflow.com/questions/28331879/jekyll-next-and-previous-links-with-different-categories
+<!-- From https://stackoverflow.com/questions/28331879/jekyll-next-and-previous-links-with-different-categories!-->
 {% if page.previous %}
   <span class="previous-link">
     <a rel="prev" href="{{ page.previous.url }}">Previous Entry</a>
@@ -36,7 +23,7 @@ pagination:
   <span class="next-link">
     <a rel="next" href="{{ page.next.url }}">Next Entry</a>
   </span>
-{% endif %} !-->
+{% endif %}
 
 <!-- Testing navigation from https://www.bytedude.com/jekyll-previous-and-next-posts/#the-code
 Don't forget about the css you added
