@@ -1,13 +1,18 @@
 ---
 layout: default
+pagination:
+  enabled: true
+  collection: posts
 ---
 <h1>{{ page.title }}</h1>
 {{ page.date | date_to_long_string }}
 <br><br>
 {{content}}
 <br><br>
-<!-- From https://stackoverflow.com/questions/28331879/jekyll-next-and-previous-links-with-different-categories!-->
 
+{% for release in paginator.posts %}
+
+<!-- From https://stackoverflow.com/questions/28331879/jekyll-next-and-previous-links-with-different-categories!-->
 {% if page.previous %}
   <span class="previous-link">
     <a rel="prev" href="{{ page.previous.url }}">Previous Entry</a>
