@@ -287,12 +287,3 @@ table td { border: 1px solid #e8e8e8; }
     flex: 1 1 0;
     width: 45%;
 }  */
-
-.previous-link {
-    padding-right: 0.5em;
-}
-
-.next-link {
-    padding-left: 0.5em;
-    text-align: right;
-}

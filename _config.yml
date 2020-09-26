@@ -30,8 +30,18 @@ github_username:  havemaps
 theme: minima
 plugins:
   - jekyll-feed
-  
+  - jekyll-paginate-v2
+
+
 show_excerpts: false
+
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 ############################################################
 
 # Exclude from processing.
