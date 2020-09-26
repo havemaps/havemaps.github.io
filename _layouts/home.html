@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-  <h1 class="post-title">Posts</h1>
+  <h2 class="post-title">Posts</h2>
 
   <ul class="post-list">
     {% for post in paginator.posts %}
@@ -13,9 +13,9 @@ layout: default
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %} -->
         <span class="post-meta">{{ post.date | date_to_long_string }}</span>
 
-        <h2>
+        <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
+        </h3>
       <!-- Hide post excerpt for now -->
       <!--  {{ post.excerpt | strip_html | truncatewords: 40, "" }}<a href="{{ post.url | relative_url }}">&hellip; read more &raquo;</a>
       </li> -->
@@ -50,6 +50,8 @@ layout: default
   </div>
   {% endif %}
 
-{% include main-map.html %}
+<br><br>
+<h2 class="map-title">Map</h2>
+<br>
 
 </div>
