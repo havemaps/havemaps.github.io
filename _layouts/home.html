@@ -9,14 +9,17 @@ layout: default
   <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <!-- Hide Minima theme date assignment
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %} -->
+        <span class="post-meta">{{ post.date | date_to_long_string }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
-        {{ post.excerpt | strip_html | truncatewords: 40, "" }}<a href="{{ post.url | relative_url }}">&hellip; read more &raquo;</a>
-      </li>
+      <!-- Hide post excerpt for now -->
+      <!--  {{ post.excerpt | strip_html | truncatewords: 40, "" }}<a href="{{ post.url | relative_url }}">&hellip; read more &raquo;</a>
+      </li> -->
+
     {% endfor %}
   </ul>
 
@@ -24,9 +27,9 @@ layout: default
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Previous</a>
     {% else %}
-      <span>&laquo; Prev</span>
+      <span>&laquo; Previous</span>
     {% endif %}
 
     {% for page in (1..paginator.total_pages) %}
