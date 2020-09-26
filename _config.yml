@@ -36,6 +36,8 @@ plugins:
 show_excerpts: false
 
 paginate: 3
+paginate_path: "/_posts/:num/"
+
 
 ############################################################
 
