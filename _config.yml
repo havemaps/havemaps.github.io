@@ -35,9 +35,6 @@ plugins:
 
 show_excerpts: false
 
-paginate: 3
-paginate_path: posts/page:num/
-
 pagination:
   enabled: true
   per_page: 5
