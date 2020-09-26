@@ -35,13 +35,9 @@ plugins:
 
 show_excerpts: false
 
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: '/page/:num/'
-  limit: 0
-  sort_field: 'date'
-  sort_reverse: true
+paginate: 3
+paginate_path: posts/page:num/
+
 ############################################################
 
 # Exclude from processing.
