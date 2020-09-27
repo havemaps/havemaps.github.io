@@ -1,15 +1,14 @@
-
 {
 "type": "FeatureCollection",
 "name": "data",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/21\/sabah.html\" target=\"_blank\">Sabah<\/a>", "Latitude": 116.558824, "Longitude": 6.076337 }, "geometry": { "type": "Point", "coordinates": [ 6.076337, 116.558824 ] } },
-{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/22\/empty-quarter.html\" target=\"_blank\">The Empty Quarter<\/a>", "Latitude": 22.883823, "Longitude": 53.924234 }, "geometry": { "type": "Point", "coordinates": [ 53.924234, 22.883823 ] } },
-{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/23\/hagia-sophia.html\" target=\"_blank\">Hagia Sophia<\/a>", "Latitude": 41.00864, "Longitude": 28.980186 }, "geometry": { "type": "Point", "coordinates": [ 28.980186, 41.00864 ] } },
-{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/24\/darling-harbour.html\" target=\"_blank\">Darling Harbor<\/a>", "Latitude": -33.8688, "Longitude": 151.2093 }, "geometry": { "type": "Point", "coordinates": [ 151.2093, -33.8688 ] } },
-{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/25\/darvaza.html\" target=\"_blank\">Darvaza<\/a>", "Latitude": 40.252652, "Longitude": 58.439743 }, "geometry": { "type": "Point", "coordinates": [ 58.439743, 40.252652 ] } },
-{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/26\/mirissa.html\" target=\"_blank\">Mirissa<\/a>", "Latitude": 5.951411, "Longitude": 80.463566 }, "geometry": { "type": "Point", "coordinates": [ 80.463566, 5.951411 ] } },
-{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/27\/piazzale-michaelangelo.html\" target=\"_blank\">Piazzale Michaelangelo<\/a>", "Latitude": 11.254005, "Longitude": 43.771692 }, "geometry": { "type": "Point", "coordinates": [ 43.771692, 11.254005 ] } }
+{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/21\/sabah.html\" target=\"_blank\">Sabah<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 116.558824, 6.076337 ] } },
+{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/22\/empty-quarter.html\" target=\"_blank\">The Empty Quarter<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 53.924234, 22.883823 ] } },
+{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/23\/hagia-sophia.html\" target=\"_blank\">Hagia Sophia<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 28.980186, 41.00864 ] } },
+{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/24\/darling-harbour.html\" target=\"_blank\">Darling Harbor<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 151.2093, -33.8688 ] } },
+{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/25\/darvaza.html\" target=\"_blank\">Darvaza<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 58.439743, 40.252652 ] } },
+{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/26\/mirissa.html\" target=\"_blank\">Mirissa<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 80.463566, 5.951411 ] } },
+{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/27\/piazzale-michaelangelo.html\" target=\"_blank\">Piazzale Michaelangelo<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 11.254005, 43.771692 ] } }
 ]
 }
