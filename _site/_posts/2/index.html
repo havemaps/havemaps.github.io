@@ -3,17 +3,18 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Have Maps Will Travel | A collection of thoughts, photos, and places.</title>
+<title>Page 2 of 2 for Have Maps Will Travel | A collection of thoughts, photos, and places.</title>
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Have Maps Will Travel" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A collection of thoughts, photos, and places." />
 <meta property="og:description" content="A collection of thoughts, photos, and places." />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
+<link rel="canonical" href="http://localhost:4000/_posts/2/" />
+<meta property="og:url" content="http://localhost:4000/_posts/2/" />
 <meta property="og:site_name" content="Have Maps Will Travel" />
+<link rel="prev" href="http://localhost:4000/" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/404.html","description":"A collection of thoughts, photos, and places.","@type":"WebPage","headline":"Have Maps Will Travel","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/_posts/2/","description":"A collection of thoughts, photos, and places.","@type":"WebPage","headline":"Have Maps Will Travel","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Have Maps Will Travel" /></head>
 <body><header class="site-header" role="banner">
@@ -33,25 +34,108 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+        <div class="home">
 
-<div class="container">
-  <h1>404</h1>
+  <h2 class="post-title">Posts</h2>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <ul class="post-list">
+    
+      <li>
+        <!-- Hide Minima theme date assignment
+         -->
+        <span class="post-meta">21 September 2020</span>
+
+        <h3>
+          <a class="post-link" href="/jekyll/update/2020/09/21/sabah.html">Sabah</a>
+        </h3>
+      <!-- Hide post excerpt for now -->
+      <!--  
+
+<a href="/jekyll/update/2020/09/21/sabah.html">&hellip; read more &raquo;</a>
+      </li> -->
+
+    
+  </ul>
+
+  <!-- Pagination links -->
+  
+  <div class="pagination">
+    
+      <a href="/">&laquo; Previous</a>
+    
+
+    
+      
+        <a href="/">1</a>
+      
+    
+      
+        2
+      
+    
+
+    
+      <span>Next &raquo;</span>
+    
+  </div>
+  
+
+<br>
+<h2 class="post-title">Map</h2>
+<br>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Have Maps Will Travel Posts</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <style>
+    <style>
+    body { margin:0; padding:0; }
+    #map { height: 300px;  width: 100% }
+    </style>
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script>
+        var places = $.ajax({
+            url: "https://raw.githubusercontent.com/havemaps/havemaps.github.io/master/_site/assets/data.geojson",
+            dataType: "json",
+            success: console.log("County data successfully loaded."),
+            error: function(xhr) {
+                alert(xhr.statusText)
+            }
+        })
+        $.when(places).done(function() {
+            var map = L.map('map')
+                .setView([0, 0], 1);
+
+        var basemap = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }).addTo(map);
+
+      // Add requested external GeoJSON to map
+        var myLayer = L.geoJSON(places.responseJSON, {
+            onEachFeature: function (feature, layer) {
+                layer.bindPopup('<h3>'+feature.properties['Title']+'</h3>');
+              }
+            }).addTo(map);
+
+          });
+    </script>
+</body>
+
+</html>
+
+
 </div>
 
       </div>

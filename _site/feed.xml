@@ -1,24 +1,319 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/willtravel/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/willtravel/" rel="alternate" type="text/html" /><updated>2020-09-22T18:36:46+04:00</updated><id>http://localhost:4000/willtravel/feed.xml</id><title type="html">Have Maps Will Travel</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/willtravel/jekyll/update/2020/09/22/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-09-22T17:58:06+04:00</published><updated>2020-09-22T17:58:06+04:00</updated><id>http://localhost:4000/willtravel/jekyll/update/2020/09/22/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/willtravel/jekyll/update/2020/09/22/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-27T09:35:57+04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Have Maps Will Travel</title><subtitle>A collection of thoughts, photos, and places.</subtitle><entry><title type="html">Mirissa</title><link href="http://localhost:4000/jekyll/update/2020/09/26/mirissa.html" rel="alternate" type="text/html" title="Mirissa" /><published>2020-09-26T11:16:27+04:00</published><updated>2020-09-26T11:16:27+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/26/mirissa</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/26/mirissa.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-26-mirissa.JPG?raw=true&quot; alt=&quot;Dog sleeping on the ground under a coconut tree. Background shows more coconut trees descending on a hill falling into blue ocean with crashing waves&quot; title=&quot;Sleeping dog at Coconut Hill, Mirissa, Sri Lanka&quot; /&gt;
+It takes so much out of me, sustained creativity. I can spend a whole day, days, in bed before I am ready and capable of any actions again. It takes so much out of me, preparing for the aftermath: cook and freeze meals, clean the floors, do the laundry, take out the trash, schedule emails. In the end, I’m little more than capable of making the daily commute from my bed to the dining room table. Same clothes for days, trying to tuck my hair in a way that looks OK to the other end of my colleagues’ cameras. It takes so much for me to find sustained creativity, so I have learned to ride the crash, coasting until I can catch another wave in the form of a hyper-stimulated brain.&lt;/p&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;leaflet-map-simple&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+  &lt;!-- Load Leaflet code library: see http://leafletjs.com/download.html --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&quot; /&gt;
+  &lt;script src=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.js&quot;&gt;&lt;/script&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+  &lt;!-- Position the map and title with Cascading Style Sheet (.css) --&gt;
+  &lt;style&gt;
+  body { margin:0; padding:0; }
+  #map { height: 250px;  width: 100% }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+  &lt;!-- Display the map and title with HTML division tags  --&gt;
+  &lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+  &lt;!-- Create the interactive map content with JavaScript (.js) --&gt;
+  &lt;script&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">The Empty Quarter</title><link href="http://localhost:4000/willtravel/jekyll/update/2020/09/22/thoughts.html" rel="alternate" type="text/html" title="The Empty Quarter" /><published>2020-09-22T09:53:39+04:00</published><updated>2020-09-22T09:53:39+04:00</updated><id>http://localhost:4000/willtravel/jekyll/update/2020/09/22/thoughts</id><content type="html" xml:base="http://localhost:4000/willtravel/jekyll/update/2020/09/22/thoughts.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/willtravel/blob/gh-pages/_site/assets/img/2020-09-22-thoughts.JPG?raw=true&quot; alt=&quot;Lower third is rolling sand dunes. Upper two thirds is a gradient blue sky.&quot; title=&quot;The Empty Quarter&quot; /&gt;&lt;/p&gt;
+  /* Set up the initial map center and zoom level */
+  var map = L.map('map', {
+    center: [5.951411, 80.463566], // EDIT latitude, longitude to re-center map
+    zoom: 12,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: false
+  });
 
-&lt;p&gt;Lately, I have felt nostalgic for my old writing days.
-Something about isolation–of miles and minds–has always tugged my fingers. Seven years on, my brain skips like a scratched CD over the damaged parts, looking for somewhere safe to land.&lt;/p&gt;
+  /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;, &amp;copy; &lt;a href=&quot;https://carto.com/attribution&quot;&gt;CARTO&lt;/a&gt;'
+  }).addTo(map);
 
-&lt;p&gt;Lately, I have wanted to return to a comfortable place, not with miles but with my mind. Feeling both comfort and betrayal in writing, it’s becoming impossible to ignore the intrusive thoughts and prods, compartmentalizing has gone on long enough. Broken machinery and cheap reproductions are still part of me if I can only remember how to how to get them moving again.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry><entry><title type="html">Sabah</title><link href="http://localhost:4000/willtravel/jekyll/update/2020/09/21/thoughts.html" rel="alternate" type="text/html" title="Sabah" /><published>2020-09-21T17:20:39+04:00</published><updated>2020-09-21T17:20:39+04:00</updated><id>http://localhost:4000/willtravel/jekyll/update/2020/09/21/thoughts</id><content type="html" xml:base="http://localhost:4000/willtravel/jekyll/update/2020/09/21/thoughts.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/willtravel/blob/gh-pages/_site/assets/img/sandakan.jpg?raw=true&quot; alt=&quot;Foreground of image is a red rafflesia flower on forest floor. Mid and background is covered in dead leaves with the trunk of a tree in the back center&quot; title=&quot;Rafflesia in Sabah, Malaysia&quot; /&gt;&lt;/p&gt;
+  /* Display a point marker with pop-up text */
+  L.marker([5.951411, 80.463566]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup(&quot;Mirissa, Sri Lanka&quot;); // EDIT pop-up text message
 
-&lt;p&gt;Trying to live my life in triplicate gets exhausting when the energy doesn’t ever come easy to live it enough for one, but I do what I can to take in what their senses never got to know. Sometimes I forget why my energy falls short of those around me, but when I remember what I carry with me (memories for three), I feel a spark in my momentary quiet, taking in the scenes (making memories for one, wishing them for three). I travel as a trio: two specters at my side unbeknownst to anyone I meet.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry></feed>
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html">It takes so much out of me, sustained creativity. I can spend a whole day, days, in bed before I am ready and capable of any actions again. It takes so much out of me, preparing for the aftermath: cook and freeze meals, clean the floors, do the laundry, take out the trash, schedule emails. In the end, I’m little more than capable of making the daily commute from my bed to the dining room table. Same clothes for days, trying to tuck my hair in a way that looks OK to the other end of my colleagues’ cameras. It takes so much for me to find sustained creativity, so I have learned to ride the crash, coasting until I can catch another wave in the form of a hyper-stimulated brain.</summary></entry><entry><title type="html">Darvaza</title><link href="http://localhost:4000/jekyll/update/2020/09/25/darvaza.html" rel="alternate" type="text/html" title="Darvaza" /><published>2020-09-25T09:57:54+04:00</published><updated>2020-09-25T09:57:54+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/25/darvaza</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/25/darvaza.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-25-darvaza.JPG?raw=true&quot; alt=&quot;Foreground is entirely black. Mid-photo is the Darvaza Gas Crater as seen from afar at night, glowing, and to the right are people standing at the surrounding fence. Background shows some lights from tents and a dark night sky.&quot; title=&quot;Darvaza Gas Crater, Turkmenistan&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Balancing on the border, I try to carry myself through each day. Working. Writing. Whatever. Always chasing a feeling, avoiding falling; often failing, but not falling. When I find my favorite mind, I wonder, how long do we have this time? A short burst, long enough to say yes, or something that will linger, forcing me to ask when I wake up each day in a continued heightened state: when will this end? I don’t want this to end. It always ends.&lt;/p&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;leaflet-map-simple&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+
+  &lt;!-- Load Leaflet code library: see http://leafletjs.com/download.html --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&quot; /&gt;
+  &lt;script src=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+
+  &lt;!-- Position the map and title with Cascading Style Sheet (.css) --&gt;
+  &lt;style&gt;
+  body { margin:0; padding:0; }
+  #map { height: 250px;  width: 100% }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;!-- Display the map and title with HTML division tags  --&gt;
+  &lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
+
+  &lt;!-- Create the interactive map content with JavaScript (.js) --&gt;
+  &lt;script&gt;
+
+  /* Set up the initial map center and zoom level */
+  var map = L.map('map', {
+    center: [40.252652, 58.439743], // EDIT latitude, longitude to re-center map
+    zoom: 7,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: false
+  });
+
+  /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;, &amp;copy; &lt;a href=&quot;https://carto.com/attribution&quot;&gt;CARTO&lt;/a&gt;'
+  }).addTo(map);
+
+  /* Display a point marker with pop-up text */
+  L.marker([40.252652, 58.439743]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup(&quot;Darvaza, Karakum Desert, Turkmenistan&quot;); // EDIT pop-up text message
+
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Darling Harbour</title><link href="http://localhost:4000/jekyll/update/2020/09/24/darling-harbour.html" rel="alternate" type="text/html" title="Darling Harbour" /><published>2020-09-24T12:20:00+04:00</published><updated>2020-09-24T12:20:00+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/24/darling-harbour</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/24/darling-harbour.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-24-darling-harbor.JPG?raw=true&quot; alt=&quot;Foreground of photo shows an out of focus black and white spotted butterfly on a hanging platform. Mid-ground shows an in focus orange and black butterfly at the edge of the platform. Background is green foliage. &quot; title=&quot;Darling Harbour&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;10-things-i-miss-about-2010-aka-things-i-miss-about-being-younger&quot;&gt;10 things I miss about 2010 (a.k.a. things I miss about being younger)&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;12% Four Loko with caffeine&lt;/li&gt;
+  &lt;li&gt;Riding my bike with friends on a Tuesday night in October&lt;/li&gt;
+  &lt;li&gt;Eating Mexican food alone in my car and listening to Science Friday on the radio&lt;/li&gt;
+  &lt;li&gt;Thrift stores&lt;/li&gt;
+  &lt;li&gt;House shows&lt;/li&gt;
+  &lt;li&gt;Feeling like there were no consequences to my actions&lt;/li&gt;
+  &lt;li&gt;Summer dance parties&lt;/li&gt;
+  &lt;li&gt;Potlucks&lt;/li&gt;
+  &lt;li&gt;Driving on Highway 96 through the Land of Al Gore&lt;/li&gt;
+  &lt;li&gt;Believing I had infinite time with everyone&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;10-things-i-dont-miss-about-2010&quot;&gt;10 things I don’t miss about 2010&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;My car&lt;/li&gt;
+  &lt;li&gt;Difficulty talking about how I actually felt&lt;/li&gt;
+  &lt;li&gt;Always having a messy room&lt;/li&gt;
+  &lt;li&gt;Not knowing how to deal with anxiety, anger, or outbursts&lt;/li&gt;
+  &lt;li&gt;Living off of student loans&lt;/li&gt;
+  &lt;li&gt;Financial anxiety&lt;/li&gt;
+  &lt;li&gt;Naivety, ignorance, and inexperience&lt;/li&gt;
+  &lt;li&gt;How I treated people&lt;/li&gt;
+  &lt;li&gt;How I let some people treat me&lt;/li&gt;
+  &lt;li&gt;Dealing with the consequences of my aforementioned actions&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;10-things-about-me-that-are-the-same-in-2020-and-2010&quot;&gt;10 things about me that are the same in 2020 and 2010&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Still believe in Marxism&lt;/li&gt;
+  &lt;li&gt;Still a vegetarian&lt;/li&gt;
+  &lt;li&gt;Still cute&lt;/li&gt;
+  &lt;li&gt;Still want to be a librarian (and am even a degree-holding, job-titled one now!)&lt;/li&gt;
+  &lt;li&gt;Still have the red bookworm bookmark I got when I was 10&lt;/li&gt;
+  &lt;li&gt;Still hydrated&lt;/li&gt;
+  &lt;li&gt;Still make occasionally regrettable outfit choices and wardrobe purchases&lt;/li&gt;
+  &lt;li&gt;Still anxious&lt;/li&gt;
+  &lt;li&gt;Still never content&lt;/li&gt;
+  &lt;li&gt;Still here.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;leaflet-map-simple&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+
+  &lt;!-- Load Leaflet code library: see http://leafletjs.com/download.html --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&quot; /&gt;
+  &lt;script src=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+
+  &lt;!-- Position the map and title with Cascading Style Sheet (.css) --&gt;
+  &lt;style&gt;
+  body { margin:0; padding:0; }
+  #map { height: 250px;  width: 100% }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;!-- Display the map and title with HTML division tags  --&gt;
+  &lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
+
+  &lt;!-- Create the interactive map content with JavaScript (.js) --&gt;
+  &lt;script&gt;
+
+  /* Set up the initial map center and zoom level */
+  var map = L.map('map', {
+    center: [-33.868800, 151.209300], // EDIT latitude, longitude to re-center map
+    zoom: 12,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: false
+  });
+
+  /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;, &amp;copy; &lt;a href=&quot;https://carto.com/attribution&quot;&gt;CARTO&lt;/a&gt;'
+  }).addTo(map);
+
+  /* Display a point marker with pop-up text */
+  L.marker([-33.868800, 151.209300]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup(&quot;Sydney&quot;); // EDIT pop-up text message
+
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Hagia Sophia</title><link href="http://localhost:4000/jekyll/update/2020/09/23/hagia-sophia.html" rel="alternate" type="text/html" title="Hagia Sophia" /><published>2020-09-23T09:53:39+04:00</published><updated>2020-09-23T09:53:39+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/23/hagia-sophia</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/23/hagia-sophia.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-23-hagia-sophia.png?raw=true&quot; alt=&quot;Photo of Hagia Sophia's main hall taken from the uppper level. &quot; title=&quot;Hagia Sophia, Istanbul&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Turning the corner a mosaic catches my attention. Something about it felt familiar: memories of poster board, tiny pieces of construction paper, Elmer’s glue, a rainy afternoon in the living room on the floor with my mom, Blockbuster rentals on in the background. I recreated the mosaic in defiance for a high school history project, a cheap reproduction. Finally, in front of me, I didn’t even know I needed to see it. Gold tiles gleam; I think, the yellow and navy construction paper was a far cry from capturing the imagery. How many other innocuous artifacts may have had such a lasting impact?&lt;/p&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;leaflet-map-simple&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+
+  &lt;!-- Load Leaflet code library: see http://leafletjs.com/download.html --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&quot; /&gt;
+  &lt;script src=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+
+  &lt;!-- Position the map and title with Cascading Style Sheet (.css) --&gt;
+  &lt;style&gt;
+  body { margin:0; padding:0; }
+  #map { height: 250px;  width: 100% }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;!-- Display the map and title with HTML division tags  --&gt;
+  &lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
+
+  &lt;!-- Create the interactive map content with JavaScript (.js) --&gt;
+  &lt;script&gt;
+
+  /* Set up the initial map center and zoom level */
+  var map = L.map('map', {
+    center: [41.008640, 28.980186], // EDIT latitude, longitude to re-center map
+    zoom: 10,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: false
+  });
+
+  /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;, &amp;copy; &lt;a href=&quot;https://carto.com/attribution&quot;&gt;CARTO&lt;/a&gt;'
+  }).addTo(map);
+
+  /* Display a point marker with pop-up text */
+  L.marker([41.008640, 28.980186]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup(&quot;Istanbul&quot;); // EDIT pop-up text message
+
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">The Empty Quarter</title><link href="http://localhost:4000/jekyll/update/2020/09/22/empty-quarter.html" rel="alternate" type="text/html" title="The Empty Quarter" /><published>2020-09-22T09:53:39+04:00</published><updated>2020-09-22T09:53:39+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/22/empty-quarter</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/22/empty-quarter.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-22-empty-quarter.JPG?raw=true&quot; alt=&quot;Lower third is rolling golden sand dunes. Upper two thirds is a gradient blue sky.&quot; title=&quot;The Empty Quarter&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Lately, I have felt nostalgic for my teenage writing days.
+Something about isolation—of miles and minds—has always tugged me back to old habits. Seven years on, my brain skips like a scratched CD, looking for somewhere safe to land.&lt;/p&gt;
+
+&lt;p&gt;Lately, I have wanted to return to a comfortable place, not with miles but with my mind. Feeling both comfort and betrayal in writing, it’s becoming impossible to ignore the intrusive thoughts and prods, compartmentalizing has gone on long enough. Broken machinery and cheap reproductions are still part of me if I can only remember how to get them moving again.&lt;/p&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;leaflet-map-simple&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+
+  &lt;!-- Load Leaflet code library: see http://leafletjs.com/download.html --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&quot; /&gt;
+  &lt;script src=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+
+  &lt;!-- Position the map and title with Cascading Style Sheet (.css) --&gt;
+  &lt;style&gt;
+  body { margin:0; padding:0; }
+  #map { height: 250px;  width: 100% }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;!-- Display the map and title with HTML division tags  --&gt;
+  &lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
+
+  &lt;!-- Create the interactive map content with JavaScript (.js) --&gt;
+  &lt;script&gt;
+
+  /* Set up the initial map center and zoom level */
+  var map = L.map('map', {
+    center: [22.883823, 53.924234], // EDIT latitude, longitude to re-center map
+    zoom: 9,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: false
+  });
+
+  /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;, &amp;copy; &lt;a href=&quot;https://carto.com/attribution&quot;&gt;CARTO&lt;/a&gt;'
+  }).addTo(map);
+
+  /* Display a point marker with pop-up text */
+  L.marker([22.883823, 53.924234]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup(&quot;The Empty Quarter, Liwa&quot;); // EDIT pop-up text message
+
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Sabah</title><link href="http://localhost:4000/jekyll/update/2020/09/21/sabah.html" rel="alternate" type="text/html" title="Sabah" /><published>2020-09-21T09:53:39+04:00</published><updated>2020-09-21T09:53:39+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/21/sabah</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/21/sabah.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-21-sabah.jpg?raw=true&quot; alt=&quot;Foreground of image is a red rafflesia flower on forest floor. Mid and background is covered in dead leaves with the trunk of a tree in the back center&quot; title=&quot;Rafflesia in Sabah, Malaysia&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Trying to live my life in triplicate gets exhausting when the energy doesn’t ever come easy to live it enough for one, but I do what I can to take in what their senses never got to know. Sometimes I forget why my energy falls short of those around me, but when I remember what I carry with me (memories for three), I feel a spark in my momentary quiet, taking in the scenes (making memories for one, wishing them for three). I travel as a trio: two specters at my side unbeknownst to anyone I meet.&lt;/p&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;leaflet-map-simple&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+
+  &lt;!-- Load Leaflet code library: see http://leafletjs.com/download.html --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&quot; /&gt;
+  &lt;script src=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+
+  &lt;!-- Position the map and title with Cascading Style Sheet (.css) --&gt;
+  &lt;style&gt;
+  body { margin:0; padding:0; }
+  #map { height: 250px;  width: 100% }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;!-- Display the map and title with HTML division tags  --&gt;
+  &lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
+
+  &lt;!-- Create the interactive map content with JavaScript (.js) --&gt;
+  &lt;script&gt;
+
+  /* Set up the initial map center and zoom level */
+  var map = L.map('map', {
+    center: [6.076337, 116.558824], // EDIT latitude, longitude to re-center map
+    zoom: 11,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: false
+  });
+
+  /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;, &amp;copy; &lt;a href=&quot;https://carto.com/attribution&quot;&gt;CARTO&lt;/a&gt;'
+  }).addTo(map);
+
+  /* Display a point marker with pop-up text */
+  L.marker([6.076337, 116.558824]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup(&quot;Mt. Kinabalu, Sabah&quot;); // EDIT pop-up text message
+
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>

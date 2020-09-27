@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>leaflet-map-simple</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <!-- Load Leaflet code library: see http://leafletjs.com/download.html -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+  <!-- Position the map and title with Cascading Style Sheet (.css) -->
+  <style>
+  body { margin:0; padding:0; }
+  #map { height: 250px;  width: 100% }
+  </style>
+</head>
+<body>
+
+  <!-- Display the map and title with HTML division tags  -->
+  <div id="map"></div>
+
+  <!-- Create the interactive map content with JavaScript (.js) -->
+  <script>
+
+  /* Set up the initial map center and zoom level */
+  var map = L.map('map', {
+    center: [43.771692, 11.254005], // EDIT latitude, longitude to re-center map
+    zoom: 12,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: false
+  });
+
+  /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>'
+  }).addTo(map);
+
+  /* Display a point marker with pop-up text */
+  L.marker([43.771692, 11.254005]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup("Florence, Italy"); // EDIT pop-up text message
+
+  </script>
+</body>
+</html>
