@@ -1,4 +1,96 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-27T09:35:57+04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Have Maps Will Travel</title><subtitle>A collection of thoughts, photos, and places.</subtitle><entry><title type="html">Mirissa</title><link href="http://localhost:4000/jekyll/update/2020/09/26/mirissa.html" rel="alternate" type="text/html" title="Mirissa" /><published>2020-09-26T11:16:27+04:00</published><updated>2020-09-26T11:16:27+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/26/mirissa</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/26/mirissa.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-26-mirissa.JPG?raw=true&quot; alt=&quot;Dog sleeping on the ground under a coconut tree. Background shows more coconut trees descending on a hill falling into blue ocean with crashing waves&quot; title=&quot;Sleeping dog at Coconut Hill, Mirissa, Sri Lanka&quot; /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-28T22:01:39+04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Have Maps Will Travel</title><subtitle>A collection of thoughts, photos, and places.</subtitle><author><name>Have Maps Will Travel</name><email>havemaps@gmail.com</email></author><entry><title type="html">The Stone Wedding</title><link href="http://localhost:4000/jekyll/update/2020/09/28/stone-wedding.html" rel="alternate" type="text/html" title="The Stone Wedding" /><published>2020-09-28T10:00:05+04:00</published><updated>2020-09-28T10:00:05+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/28/stone-wedding</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/28/stone-wedding.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-28-stone-wedding.jpg?raw=true&quot; alt=&quot;Photo from behind and below of the rock formation Stone Wedding. Small plants and shrubs on ground and some parts of rocks. Sky in upper quarter is light gray. &quot; title=&quot;The Stone Wedding&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I swear you loved me once—your songs still play inside my head. Because I still think you might love me one day, &lt;a href=&quot;https://open.spotify.com/playlist/6ul1IOR2ltUyj9D8Ncc9hy?si=2dYW1vTFQSSiPfAOTRAuwQ&quot; target=&quot;_blank&quot;&gt;these are the songs I would play&lt;/a&gt;.&lt;/p&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;leaflet-map-simple&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+
+  &lt;!-- Load Leaflet code library: see http://leafletjs.com/download.html --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&quot; /&gt;
+  &lt;script src=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+
+  &lt;!-- Position the map and title with Cascading Style Sheet (.css) --&gt;
+  &lt;style&gt;
+  body { margin:0; padding:0; }
+  #map { height: 250px;  width: 100% }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;!-- Display the map and title with HTML division tags  --&gt;
+  &lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
+
+  &lt;!-- Create the interactive map content with JavaScript (.js) --&gt;
+  &lt;script&gt;
+
+  /* Set up the initial map center and zoom level */
+  var map = L.map('map', {
+    center: [41.634540, 25.378149], // EDIT latitude, longitude to re-center map
+    zoom: 13,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: false
+  });
+
+  /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;, &amp;copy; &lt;a href=&quot;https://carto.com/attribution&quot;&gt;CARTO&lt;/a&gt;'
+  }).addTo(map);
+
+  /* Display a point marker with pop-up text */
+  L.marker([41.634540, 25.378149]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup(&quot;Kardzhali, Bulgaria&quot;); // EDIT pop-up text message
+
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name>Have Maps Will Travel</name><email>havemaps@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">Piazzale Michelangelo</title><link href="http://localhost:4000/jekyll/update/2020/09/27/piazzale-michelangelo.html" rel="alternate" type="text/html" title="Piazzale Michelangelo" /><published>2020-09-27T11:16:27+04:00</published><updated>2020-09-27T11:16:27+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/27/piazzale-michelangelo</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/27/piazzale-michelangelo.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-27-perseus.png?raw=true&quot; alt=&quot;Photo of the Perseus With Medusa's Head bronze sculpture on top of white marble platform. Perseus stands upon Medusa's body and holds her head up. Background of photo shows outdoor pavilion overhead.&quot; title=&quot;Perseus with Medusa Head statue&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A time lapse plays across my mind as I am making my way up to Piazzale Michelangelo. Moving through the Renaissance streets I’m quiet but projecting, trying to imagine my life as a Botticelli dreamscape. Pausing in front of Dante’s childhood home, I dream of the places I have been, where I was, why I needed to run. Oh, Perseus, why?&lt;/p&gt;
+
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;leaflet-map-simple&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
+  &lt;meta charset=&quot;utf-8&quot; /&gt;
+
+  &lt;!-- Load Leaflet code library: see http://leafletjs.com/download.html --&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.css&quot; /&gt;
+  &lt;script src=&quot;https://unpkg.com/leaflet@1.7.1/dist/leaflet.js&quot;&gt;&lt;/script&gt;
+
+  &lt;!-- Position the map and title with Cascading Style Sheet (.css) --&gt;
+  &lt;style&gt;
+  body { margin:0; padding:0; }
+  #map { height: 250px;  width: 100% }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;!-- Display the map and title with HTML division tags  --&gt;
+  &lt;div id=&quot;map&quot;&gt;&lt;/div&gt;
+
+  &lt;!-- Create the interactive map content with JavaScript (.js) --&gt;
+  &lt;script&gt;
+
+  /* Set up the initial map center and zoom level */
+  var map = L.map('map', {
+    center: [43.771692, 11.254005], // EDIT latitude, longitude to re-center map
+    zoom: 12,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: false
+  });
+
+  /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&amp;copy; &lt;a href=&quot;http://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt;, &amp;copy; &lt;a href=&quot;https://carto.com/attribution&quot;&gt;CARTO&lt;/a&gt;'
+  }).addTo(map);
+
+  /* Display a point marker with pop-up text */
+  L.marker([43.771692, 11.254005]).addTo(map) // EDIT latitude, longitude to re-position marker
+  .bindPopup(&quot;Florence, Italy&quot;); // EDIT pop-up text message
+
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><author><name>Have Maps Will Travel</name><email>havemaps@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">Mirissa</title><link href="http://localhost:4000/jekyll/update/2020/09/26/mirissa.html" rel="alternate" type="text/html" title="Mirissa" /><published>2020-09-26T11:16:27+04:00</published><updated>2020-09-26T11:16:27+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/26/mirissa</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/26/mirissa.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-26-mirissa.JPG?raw=true&quot; alt=&quot;Dog sleeping on the ground under a coconut tree. Background shows more coconut trees descending on a hill falling into blue ocean with crashing waves&quot; title=&quot;Sleeping dog at Coconut Hill, Mirissa, Sri Lanka&quot; /&gt;
 It takes so much out of me, sustained creativity. I can spend a whole day, days, in bed before I am ready and capable of any actions again. It takes so much out of me, preparing for the aftermath: cook and freeze meals, clean the floors, do the laundry, take out the trash, schedule emails. In the end, I’m little more than capable of making the daily commute from my bed to the dining room table. Same clothes for days, trying to tuck my hair in a way that looks OK to the other end of my colleagues’ cameras. It takes so much for me to find sustained creativity, so I have learned to ride the crash, coasting until I can catch another wave in the form of a hyper-stimulated brain.&lt;/p&gt;
 
 &lt;html&gt;
@@ -43,7 +135,7 @@ It takes so much out of me, sustained creativity. I can spend a whole day, days,
 
   &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html">It takes so much out of me, sustained creativity. I can spend a whole day, days, in bed before I am ready and capable of any actions again. It takes so much out of me, preparing for the aftermath: cook and freeze meals, clean the floors, do the laundry, take out the trash, schedule emails. In the end, I’m little more than capable of making the daily commute from my bed to the dining room table. Same clothes for days, trying to tuck my hair in a way that looks OK to the other end of my colleagues’ cameras. It takes so much for me to find sustained creativity, so I have learned to ride the crash, coasting until I can catch another wave in the form of a hyper-stimulated brain.</summary></entry><entry><title type="html">Darvaza</title><link href="http://localhost:4000/jekyll/update/2020/09/25/darvaza.html" rel="alternate" type="text/html" title="Darvaza" /><published>2020-09-25T09:57:54+04:00</published><updated>2020-09-25T09:57:54+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/25/darvaza</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/25/darvaza.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-25-darvaza.JPG?raw=true&quot; alt=&quot;Foreground is entirely black. Mid-photo is the Darvaza Gas Crater as seen from afar at night, glowing, and to the right are people standing at the surrounding fence. Background shows some lights from tents and a dark night sky.&quot; title=&quot;Darvaza Gas Crater, Turkmenistan&quot; /&gt;&lt;/p&gt;
+&lt;/html&gt;</content><author><name>Have Maps Will Travel</name><email>havemaps@gmail.com</email></author><summary type="html">It takes so much out of me, sustained creativity. I can spend a whole day, days, in bed before I am ready and capable of any actions again. It takes so much out of me, preparing for the aftermath: cook and freeze meals, clean the floors, do the laundry, take out the trash, schedule emails. In the end, I’m little more than capable of making the daily commute from my bed to the dining room table. Same clothes for days, trying to tuck my hair in a way that looks OK to the other end of my colleagues’ cameras. It takes so much for me to find sustained creativity, so I have learned to ride the crash, coasting until I can catch another wave in the form of a hyper-stimulated brain.</summary></entry><entry><title type="html">Darvaza</title><link href="http://localhost:4000/jekyll/update/2020/09/25/darvaza.html" rel="alternate" type="text/html" title="Darvaza" /><published>2020-09-25T09:57:54+04:00</published><updated>2020-09-25T09:57:54+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/25/darvaza</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/25/darvaza.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-25-darvaza.JPG?raw=true&quot; alt=&quot;Foreground is entirely black. Mid-photo is the Darvaza Gas Crater as seen from afar at night, glowing, and to the right are people standing at the surrounding fence. Background shows some lights from tents and a dark night sky.&quot; title=&quot;Darvaza Gas Crater, Turkmenistan&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Balancing on the border, I try to carry myself through each day. Working. Writing. Whatever. Always chasing a feeling, avoiding falling; often failing, but not falling. When I find my favorite mind, I wonder, how long do we have this time? A short burst, long enough to say yes, or something that will linger, forcing me to ask when I wake up each day in a continued heightened state: when will this end? I don’t want this to end. It always ends.&lt;/p&gt;
 
@@ -89,7 +181,7 @@ It takes so much out of me, sustained creativity. I can spend a whole day, days,
 
   &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Darling Harbour</title><link href="http://localhost:4000/jekyll/update/2020/09/24/darling-harbour.html" rel="alternate" type="text/html" title="Darling Harbour" /><published>2020-09-24T12:20:00+04:00</published><updated>2020-09-24T12:20:00+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/24/darling-harbour</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/24/darling-harbour.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-24-darling-harbor.JPG?raw=true&quot; alt=&quot;Foreground of photo shows an out of focus black and white spotted butterfly on a hanging platform. Mid-ground shows an in focus orange and black butterfly at the edge of the platform. Background is green foliage. &quot; title=&quot;Darling Harbour&quot; /&gt;&lt;/p&gt;
+&lt;/html&gt;</content><author><name>Have Maps Will Travel</name><email>havemaps@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">Darling Harbour</title><link href="http://localhost:4000/jekyll/update/2020/09/24/darling-harbour.html" rel="alternate" type="text/html" title="Darling Harbour" /><published>2020-09-24T12:20:00+04:00</published><updated>2020-09-24T12:20:00+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/24/darling-harbour</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/24/darling-harbour.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-24-darling-harbor.JPG?raw=true&quot; alt=&quot;Foreground of photo shows an out of focus black and white spotted butterfly on a hanging platform. Mid-ground shows an in focus orange and black butterfly at the edge of the platform. Background is green foliage. &quot; title=&quot;Darling Harbour&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;10-things-i-miss-about-2010-aka-things-i-miss-about-being-younger&quot;&gt;10 things I miss about 2010 (a.k.a. things I miss about being younger)&lt;/h2&gt;
 &lt;ol&gt;
@@ -175,7 +267,7 @@ It takes so much out of me, sustained creativity. I can spend a whole day, days,
 
   &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Hagia Sophia</title><link href="http://localhost:4000/jekyll/update/2020/09/23/hagia-sophia.html" rel="alternate" type="text/html" title="Hagia Sophia" /><published>2020-09-23T09:53:39+04:00</published><updated>2020-09-23T09:53:39+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/23/hagia-sophia</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/23/hagia-sophia.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-23-hagia-sophia.png?raw=true&quot; alt=&quot;Photo of Hagia Sophia's main hall taken from the uppper level. &quot; title=&quot;Hagia Sophia, Istanbul&quot; /&gt;&lt;/p&gt;
+&lt;/html&gt;</content><author><name>Have Maps Will Travel</name><email>havemaps@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">Hagia Sophia</title><link href="http://localhost:4000/jekyll/update/2020/09/23/hagia-sophia.html" rel="alternate" type="text/html" title="Hagia Sophia" /><published>2020-09-23T09:53:39+04:00</published><updated>2020-09-23T09:53:39+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/23/hagia-sophia</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/23/hagia-sophia.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-23-hagia-sophia.png?raw=true&quot; alt=&quot;Photo of Hagia Sophia's main hall taken from the uppper level. &quot; title=&quot;Hagia Sophia, Istanbul&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Turning the corner a mosaic catches my attention. Something about it felt familiar: memories of poster board, tiny pieces of construction paper, Elmer’s glue, a rainy afternoon in the living room on the floor with my mom, Blockbuster rentals on in the background. I recreated the mosaic in defiance for a high school history project, a cheap reproduction. Finally, in front of me, I didn’t even know I needed to see it. Gold tiles gleam; I think, the yellow and navy construction paper was a far cry from capturing the imagery. How many other innocuous artifacts may have had such a lasting impact?&lt;/p&gt;
 
@@ -221,7 +313,7 @@ It takes so much out of me, sustained creativity. I can spend a whole day, days,
 
   &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">The Empty Quarter</title><link href="http://localhost:4000/jekyll/update/2020/09/22/empty-quarter.html" rel="alternate" type="text/html" title="The Empty Quarter" /><published>2020-09-22T09:53:39+04:00</published><updated>2020-09-22T09:53:39+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/22/empty-quarter</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/22/empty-quarter.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-22-empty-quarter.JPG?raw=true&quot; alt=&quot;Lower third is rolling golden sand dunes. Upper two thirds is a gradient blue sky.&quot; title=&quot;The Empty Quarter&quot; /&gt;&lt;/p&gt;
+&lt;/html&gt;</content><author><name>Have Maps Will Travel</name><email>havemaps@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">The Empty Quarter</title><link href="http://localhost:4000/jekyll/update/2020/09/22/empty-quarter.html" rel="alternate" type="text/html" title="The Empty Quarter" /><published>2020-09-22T09:53:39+04:00</published><updated>2020-09-22T09:53:39+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/22/empty-quarter</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/22/empty-quarter.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-22-empty-quarter.JPG?raw=true&quot; alt=&quot;Lower third is rolling golden sand dunes. Upper two thirds is a gradient blue sky.&quot; title=&quot;The Empty Quarter&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Lately, I have felt nostalgic for my teenage writing days.
 Something about isolation—of miles and minds—has always tugged me back to old habits. Seven years on, my brain skips like a scratched CD, looking for somewhere safe to land.&lt;/p&gt;
@@ -270,7 +362,7 @@ Something about isolation—of miles and minds—has always tugged me back to ol
 
   &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Sabah</title><link href="http://localhost:4000/jekyll/update/2020/09/21/sabah.html" rel="alternate" type="text/html" title="Sabah" /><published>2020-09-21T09:53:39+04:00</published><updated>2020-09-21T09:53:39+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/21/sabah</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/21/sabah.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/_site/assets/img/2020-09-21-sabah.jpg?raw=true&quot; alt=&quot;Foreground of image is a red rafflesia flower on forest floor. Mid and background is covered in dead leaves with the trunk of a tree in the back center&quot; title=&quot;Rafflesia in Sabah, Malaysia&quot; /&gt;&lt;/p&gt;
+&lt;/html&gt;</content><author><name>Have Maps Will Travel</name><email>havemaps@gmail.com</email></author><summary type="html"></summary></entry><entry><title type="html">Sabah</title><link href="http://localhost:4000/jekyll/update/2020/09/21/sabah.html" rel="alternate" type="text/html" title="Sabah" /><published>2020-09-21T09:53:39+04:00</published><updated>2020-09-21T09:53:39+04:00</updated><id>http://localhost:4000/jekyll/update/2020/09/21/sabah</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/09/21/sabah.html">&lt;p&gt;&lt;img src=&quot;https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-21-sabah.jpg?raw=true&quot; alt=&quot;Foreground of image is a red rafflesia flower on forest floor. Mid and background is covered in dead leaves with the trunk of a tree in the back center&quot; title=&quot;Rafflesia in Sabah, Malaysia&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Trying to live my life in triplicate gets exhausting when the energy doesn’t ever come easy to live it enough for one, but I do what I can to take in what their senses never got to know. Sometimes I forget why my energy falls short of those around me, but when I remember what I carry with me (memories for three), I feel a spark in my momentary quiet, taking in the scenes (making memories for one, wishing them for three). I travel as a trio: two specters at my side unbeknownst to anyone I meet.&lt;/p&gt;
 
@@ -316,4 +408,4 @@ Something about isolation—of miles and minds—has always tugged me back to ol
 
   &lt;/script&gt;
 &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;/html&gt;</content><author><name>Have Maps Will Travel</name><email>havemaps@gmail.com</email></author><summary type="html"></summary></entry></feed>

@@ -20,7 +20,7 @@
     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
     <script>
         var places = $.ajax({
-            url: "https://raw.githubusercontent.com/havemaps/havemaps.github.io/master/_site/assets/data.geojson",
+            url: "https://raw.githubusercontent.com/havemaps/havemaps.github.io/master/data.geojson",
             dataType: "json",
             success: console.log("County data successfully loaded."),
             error: function(xhr) {

@@ -1,0 +1,44 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+      {%- if site.author %}
+        <ul class="contact-list">
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+            <a rel="me" href="https://github.com/havemaps/havemaps.github.io" title="havemaps"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+
+            <a rel="me" href="https://twitter.com/havemaps" title="{{ social.twitter | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>
+
+             <a href="mailto:havemaps@gmail.com" title="{{ social.mail | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#mail' | relative_url }}"></use></svg></a>
+        <!--  {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %} -->
+        </ul>
+
+      </div>
+      <div class="footer-col">
+        <p>{{ site.description | escape }}</p>
+        {%- endif %}
+        <p class="feed-subscribe">
+          <a href="{{ 'feed.xml' | relative_url }}">
+
+            <span>Subscribe</span>
+          </a>
+        </p>
+
+
+      </div>
+    </div>
+
+    <div class="social-links">
+      {%- include social.html -%}
+    </div>
+
+  </div>
+
+</footer>
