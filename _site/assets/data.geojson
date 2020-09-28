@@ -9,6 +9,7 @@
 { "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/24\/darling-harbour.html\" target=\"_blank\">Darling Harbor<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 151.2093, -33.8688 ] } },
 { "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/25\/darvaza.html\" target=\"_blank\">Darvaza<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 58.439743, 40.252652 ] } },
 { "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/26\/mirissa.html\" target=\"_blank\">Mirissa<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 80.463566, 5.951411 ] } },
-{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/27\/piazzale-michelangelo.html\" target=\"_blank\">Piazzale Michelangelo<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 11.254005, 43.771692 ] } }
+{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/27\/piazzale-michelangelo.html\" target=\"_blank\">Piazzale Michelangelo<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 11.254005, 43.771692 ] } },
+{ "type": "Feature", "properties": { "Title": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/28\/stone-wedding.html\" target=\"_blank\">The Stone Wedding<\/a>" }, "geometry": { "type": "Point", "coordinates": [ 25.378149, 41.63454 ] } }
 ]
 }

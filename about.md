@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 ## The project
-Where can we go when we can’t go anywhere? Have Maps Will Travel is a digital storytelling project about escapism and memory as coping mechanisms for grief and instability. Presented in the style of a blog, the project combines stream of consciousness, photography, and maps. Each post uses a place to anchor its theme. The often unconnected content in a post works together to create an almost imagined memory, continuously building upon the project's narrative. The interactive post map adds to the nonlinearity in the narrative, which allows readers to explore the author's state of mind throughout time.
+Where can we go when we can’t go anywhere? Have Maps Will Travel is a digital storytelling project about escapism and memory as coping mechanisms for grief and instability. Presented in the style of a blog, the project combines stream of consciousness, photography, and maps. Each post uses a place to anchor its theme. The often unconnected content in a post works together to create an almost imagined memory. The interactive post map adds to the nonlinearity in the narrative, which allows readers to explore the author's state of mind throughout time.
 
 ## Photography
 The photos used in this project were taken by the project owner throughout the past 10 years. Most photos were taken with a variety of iPhones, but some used a Nikon CoolPix L22.
