@@ -41,5 +41,3 @@ categories: jekyll update
 8. Still anxious
 9. Still never content
 10. Still here.
-
-{% include sydney.html %}
