@@ -115,7 +115,7 @@
       // Add requested external GeoJSON to map
         var myLayer = L.geoJSON(places.responseJSON, {
             onEachFeature: function (feature, layer) {
-                layer.bindPopup('<h3>'+feature.properties['Post']+'</h3>');
+                layer.bindPopup('<h3>'+feature.properties['Post']+'</h3>'+feature.properties['Place']);
               }
             }).addTo(map).markers(myLayer, { alt: 'marker' })
 

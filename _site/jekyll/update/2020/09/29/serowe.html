@@ -42,9 +42,9 @@
         <h1>Serowe</h1>
 29 September 2020
 <br><br>
-<p><img src="https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-29-serowe.JPG?raw=true" alt="Top two third is gradient sky from dark purple into pinks and then orange. Top left is a crescent moon. Bottom third is black outlines of savannah flora." title="Sunrise in Serowe, Botswana" /></p>
+<p><img src="https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-29-serowe.JPG?raw=true" alt="Top two thirds is gradient sky from dark purple into pinks and then orange. Top left is a crescent moon. Bottom third is black outlines of savannah flora." title="Sunrise in Serowe, Botswana" /></p>
 
-<p>I’m not sleeping well these days. Something keeps me up at night. I can’t quiet my mind when there’s still so many thoughts to think. What’s stopping me? Something keeps me up at night—-I don’t know what, but it doesn’t wake me up in the morning either. Something keeps me up at night. I’m passing the time <a href="https://open.spotify.com/playlist/7KgNENnu7NgSon3y7lZuqF?si=OaZs3rYKRnmUeyVZXgOpKQ" target="_blank">dancing to the beat of my own mental break</a>.</p>
+<p>I’m not sleeping well these days. Something keeps me up at night. I can’t quiet my mind when there’s still so many thoughts to think. What’s stopping me? Something keeps me up at night. I don’t know what, but it doesn’t wake me up in the morning either. Something keeps me up at night. I’m passing the time <a href="https://open.spotify.com/playlist/7KgNENnu7NgSon3y7lZuqF?si=OaZs3rYKRnmUeyVZXgOpKQ" target="_blank">dancing to the beat of my own mental break</a>.</p>
 
 <br><br>
 
@@ -111,7 +111,7 @@
       // Add requested external GeoJSON to map
         var myLayer = L.geoJSON(places.responseJSON, {
             onEachFeature: function (feature, layer) {
-                layer.bindPopup('<h3>'+feature.properties['Post']+'</h3>');
+                layer.bindPopup('<h3>'+feature.properties['Post']+'</h3>'+feature.properties['Place']);
               }
             }).addTo(map).markers(myLayer, { alt: 'marker' })
 

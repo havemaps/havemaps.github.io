@@ -114,7 +114,7 @@ It takes so much out of me, sustained creativity. I can spend a whole day, days,
       // Add requested external GeoJSON to map
         var myLayer = L.geoJSON(places.responseJSON, {
             onEachFeature: function (feature, layer) {
-                layer.bindPopup('<h3>'+feature.properties['Post']+'</h3>');
+                layer.bindPopup('<h3>'+feature.properties['Post']+'</h3>'+feature.properties['Place']);
               }
             }).addTo(map).markers(myLayer, { alt: 'marker' })
 
