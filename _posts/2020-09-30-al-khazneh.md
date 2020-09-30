@@ -4,7 +4,7 @@ title:  "Al-Khazneh"
 date:   2020-09-30 17:16:48 +0400
 categories: jekyll update
 ---
-![Five camels with saddles and bridles in front of the red carved sandstone rocks in Petra, Jordan.](https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-30-al-khazneh .JPG?raw=true "Petra, Jordan")
+![Five camels with saddles and bridles in front of the red carved sandstone rocks in Petra, Jordan.](https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-30-al-khazneh.JPG?raw=true "Petra, Jordan")
 
 55 to the Red Line. Transfer to Blue. Trying to save a few dollars by taking public transit, losing time instead of money. I rationalize, this is the penny-pinching that will help me dig myself out from under my debts (is this picking myself up by my boot straps?). Careful preparation: will I make all my transfers? Will I make it in time before the start of the play?
 
