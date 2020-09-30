@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Al-Khazneh"
-date:   2020-09-30 17:16:45 +0400
+date:   2020-09-30 17:16:48 +0400
 categories: jekyll update
 ---
 ![Five camels with saddles and bridles in front of the red carved sandstone rocks in Petra, Jordan.](https://github.com/havemaps/havemaps.github.io/blob/master/img/2020-09-30-al-khazneh .JPG?raw=true "Petra, Jordan")
