@@ -3,7 +3,13 @@
 .post-nav{
   float: center;
   text-align: center;
-
+  overflow: hidden;
+  @include relative-font-size(1.2);
+  border-style: transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: rgb(255,219,217);
+  background: linear-gradient(90deg, rgba(255,219,217,1) 0%, rgba(243,210,255,1) 37%, rgba(193,255,241,1) 76%, rgba(222,249,255,1) 100%);
 }
 
 .previous-link{
@@ -14,6 +20,21 @@
   padding-left: 5px;
 }
 
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1px 1px;
+}
+
+a:hover {
+  background: white;
+  color: $text-color;
+}
+
+.round {
+  border-radius: 50%;
+
+}
 .svg-icon{
   color: #111111;
 }
