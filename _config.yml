@@ -5,7 +5,7 @@ author:
 description: A collection of thoughts, photos, and places. # this means to ignore newlines until "show_excerpts:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://havemaps.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://havemapswill.travel" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_url: https://twitter.com/havemaps
 permalink: /blog/:title/

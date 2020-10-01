@@ -13,6 +13,6 @@
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/28\/stone-wedding.html\">The Stone Wedding<\/a>", "Place": "Kardzhali, Bulgaria" }, "geometry": { "type": "Point", "coordinates": [ 25.378149, 41.63454 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/29\/serowe.html\">Serowe<\/a>", "Place": "Serowe, Botswana" }, "geometry": { "type": "Point", "coordinates": [ 26.713597, -22.403465 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/09\/30\/al-khazneh.html\">Al-Khazneh<\/a>", "Place": "Petra, Jordan" }, "geometry": { "type": "Point", "coordinates": [ 35.445693, 30.329121 ] } },
-{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/10\/01\/oslo.html\">Oslo<\/a>", "Place": "Oslo, Norway" }, "geometry": { "type": "Point", "coordinates": [ 10.759018, 59.907554 ] } }
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemaps.github.io\/jekyll\/update\/2020\/10\/01\/lexington.html\">Lexington<\/a>", "Place": "Lexington, Kentucky" }, "geometry": { "type": "Point", "coordinates": [ -84.502625, 38.050254 ] } }
 ]
 }
