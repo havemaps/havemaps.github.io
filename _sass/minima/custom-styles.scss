@@ -1,8 +1,14 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.share-text{
+    color: $text-color;
+    float: center;
+}
+
 .post-nav{
   float: center;
-  text-align: center;
+  text-align: left;
   overflow: hidden;
   @include relative-font-size(1.2);
   border-style: transparent;
@@ -14,9 +20,11 @@
 
 .previous-link{
   padding-right: 5px;
+  padding-left: 5px;
 }
 
 .next-link{
+  padding-right: 5px;
   padding-left: 5px;
 }
 

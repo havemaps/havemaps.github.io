@@ -24,6 +24,9 @@
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
         {%- endif %}
+        <p>
+        {% include search-lunr.html %}
+        </p>
         <p class="feed-subscribe">
           <a href="{{ 'feed.xml' | relative_url }}">
 
@@ -40,5 +43,6 @@
     </div>
 
   </div>
-
+  <script type="text/javascript" src="/js/lightbox.js"></script>
+  <link rel="stylesheet" href="/css/lightbox.css">
 </footer>

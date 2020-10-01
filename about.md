@@ -10,7 +10,7 @@ The photos used in this project were taken by the project owner throughout the p
 
 This project is proudly open source and [hosted on GitHub](https://github.com/havemaps/havemaps.github.io). It is built with [Jekyll sites](https://jekyllrb.com/) and [Leaflet maps](https://leafletjs.com/). If you have any questions, comments, or proposals for collaborations, [contact the project owner](mailto:havemaps@gmail.com).
 ## Licensing and attribution
-All photos and words are by the Have Maps Will Travel site owner unless otherwise stated. This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/">Creative Commons Attribution-NonCommercial-NoDerivs 2.5 Generic License</a>. [Contact](mailto:havemaps@gmail.com) for further questions or inquiries about use, sharing, attribution, or partnership.
+All photos and words are by the Have Maps Will Travel owner unless otherwise stated. This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/">Creative Commons Attribution-NonCommercial-NoDerivs 2.5 Generic License</a>. [Contact](mailto:havemaps@gmail.com) for further questions or inquiries about use, sharing, attribution, or partnership.
 <br>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/2.5/88x31.png" /></a><br />
 ### Non-commercial sharing

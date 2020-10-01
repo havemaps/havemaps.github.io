@@ -227,11 +227,13 @@ table td { border: 1px solid #777777; }
 
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (15px / 2)); } }
-.post-nav { float: center; text-align: center; overflow: hidden; font-size: 1.2rem; border-style: transparent; padding-top: 5px; padding-bottom: 5px; background: #ffdbd9; background: linear-gradient(90deg, #ffdbd9 0%, #f3d2ff 37%, #c1fff1 76%, #def9ff 100%); }
+.share-text { color: #111111; float: center; }
 
-.previous-link { padding-right: 5px; }
+.post-nav { float: center; text-align: left; overflow: hidden; font-size: 1.2rem; border-style: transparent; padding-top: 5px; padding-bottom: 5px; background: #ffdbd9; background: linear-gradient(90deg, #ffdbd9 0%, #f3d2ff 37%, #c1fff1 76%, #def9ff 100%); }
 
-.next-link { padding-left: 5px; }
+.previous-link { padding-right: 5px; padding-left: 5px; }
+
+.next-link { padding-right: 5px; padding-left: 5px; }
 
 a { text-decoration: none; display: inline-block; padding: 1px 1px; }
 

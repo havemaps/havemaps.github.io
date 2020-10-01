@@ -7,10 +7,8 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
     <div> <h1 class="post-list-heading">Posts</h1>
-
   {{ content }}
 </div>
-
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
@@ -37,6 +35,8 @@ layout: default
       </li>
       {%- endfor -%}
     </ul>
+
+{% include social-share.html %}
 
     {% if site.paginate %}
       <div class="pager">
