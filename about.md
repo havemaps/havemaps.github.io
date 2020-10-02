@@ -8,7 +8,7 @@ Where can we go when we can’t go anywhere? Have Maps Will Travel is a digital 
 
 The photos used in this project were taken by the project owner throughout the past 10 years. Most photos were taken with a variety of iPhones, but some used a Nikon CoolPix L22.
 
-This project is proudly open source and [hosted on GitHub](https://github.com/havemaps/havemaps.github.io). It is built with [Jekyll sites](https://jekyllrb.com/) and [Leaflet maps](https://leafletjs.com/). If you have any questions, comments, or proposals for collaborations, [contact the project owner](mailto:havemaps@gmail.com).
+This project is proudly open source and [available on GitHub](https://github.com/havemaps/havemaps.github.io). It is built with [Jekyll sites](https://jekyllrb.com/) and [Leaflet maps](https://leafletjs.com/). If you have any questions, comments, or proposals for collaborations, [contact the project owner](mailto:havemaps@gmail.com).
 ## Licensing and attribution
 All photos and words are by the Have Maps Will Travel owner unless otherwise stated. This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.5/">Creative Commons Attribution-NonCommercial-NoDerivs 2.5 Generic License</a>. [Contact](mailto:havemaps@gmail.com) for further questions or inquiries about use, sharing, attribution, or partnership.
 <br>
