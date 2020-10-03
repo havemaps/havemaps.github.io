@@ -7,6 +7,28 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Rugby</title>
+        <description>&lt;p&gt;&lt;img src=&quot;//images.weserv.nl/?url=havemapswill.travel/img/2020-10-03-rugby.jpeg&amp;amp;&amp;amp;w=500h=400&amp;amp;dpr=3&quot; alt=&quot;Printing press letters spelling Historic Rugby Commissary.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m quitting my job to become a writer, to work on that famous war novel I’m always telling everyone about. I’m moving to South Africa to find my muse. I will only wear white linen dresses. I will bury myself in my basement and take too many sleeping pills (but not too much). I will go on a two-week bender and write my most famous work on one scroll of paper. No editing is required. Straight to the publisher, please.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 03 Oct 2020 21:33:23 +0400</pubDate>
+        <link>http://localhost:4000//blog/rugby/</link>
+        <guid isPermaLink="true">http://localhost:4000//blog/rugby/</guid>
+      </item>
+    
+      <item>
+        <title>Oslo</title>
+        <description>&lt;p&gt;&lt;img src=&quot;//images.weserv.nl/?url=havemapswill.travel/img/2020-10-02-oslo.JPG&amp;amp;&amp;amp;w=500h=400&amp;amp;dpr=3&quot; alt=&quot;Low angle photo of wood paneling inside Oslo Opera House.&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quiet, like the snow. In the first few moments, blissful. In the next, exciting. As it sinks in, knowing it will have to melt (unless), but yet.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 02 Oct 2020 17:58:16 +0400</pubDate>
+        <link>http://localhost:4000//blog/oslo/</link>
+        <guid isPermaLink="true">http://localhost:4000//blog/oslo/</guid>
+      </item>
+    
+      <item>
         <title>Lexington</title>
         <description>&lt;p&gt;&lt;img src=&quot;//images.weserv.nl/?url=havemapswill.travel/img/2020-10-01-lexington.jpg&amp;amp;&amp;amp;w=500h=400&amp;amp;dpr=3&quot; alt=&quot;Low angle photo of dozens of carved pumpkins on stone steps.&quot; /&gt;&lt;/p&gt;
 
@@ -136,31 +158,6 @@
         <pubDate>Thu, 24 Sep 2020 12:20:00 +0400</pubDate>
         <link>http://localhost:4000//blog/darling-harbour/</link>
         <guid isPermaLink="true">http://localhost:4000//blog/darling-harbour/</guid>
-      </item>
-    
-      <item>
-        <title>Hagia Sophia</title>
-        <description>&lt;p&gt;&lt;img src=&quot;//images.weserv.nl/?url=havemapswill.travel/img/2020-09-23-hagia-sophia.png&amp;amp;&amp;amp;w=500h=400&amp;amp;dpr=3&quot; alt=&quot;Photo of Hagia Sophia's main hall taken from the uppper level.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Turning the corner a mosaic catches my attention. Something about it felt familiar: memories of poster board, tiny pieces of construction paper, Elmer’s glue, a rainy afternoon in the living room on the floor with my mom, Blockbuster rentals on in the background. I recreated the mosaic in defiance for a high school history project, a cheap reproduction. Finally, in front of me, I didn’t even know I needed to see it. Gold tiles gleam; I think, the yellow and navy construction paper was a far cry from capturing the imagery. How many other innocuous artifacts may have had such a lasting impact?&lt;/p&gt;
-</description>
-        <pubDate>Wed, 23 Sep 2020 09:53:39 +0400</pubDate>
-        <link>http://localhost:4000//blog/hagia-sophia/</link>
-        <guid isPermaLink="true">http://localhost:4000//blog/hagia-sophia/</guid>
-      </item>
-    
-      <item>
-        <title>The Empty Quarter</title>
-        <description>&lt;p&gt;&lt;img src=&quot;//images.weserv.nl/?url=havemapswill.travel/img/2020-09-22-empty-quarter.JPG&amp;amp;&amp;amp;w=500h=400&amp;amp;dpr=3&quot; alt=&quot;Lower third is rolling golden sand dunes. Upper two thirds is a gradient blue sky.&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Lately, I have felt nostalgic for my teenage writing days.
-Something about isolation—of miles and minds—has always tugged me back to old habits. Seven years on, my brain skips like a scratched CD, looking for somewhere safe to land.&lt;/p&gt;
-
-&lt;p&gt;Lately, I have wanted to return to a comfortable place, not with miles but with my mind. Feeling both comfort and betrayal in writing, it’s becoming impossible to ignore the intrusive thoughts and prods, compartmentalizing has gone on long enough. Broken machinery and cheap reproductions are still part of me if I can only remember how to get them moving again.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 22 Sep 2020 09:53:39 +0400</pubDate>
-        <link>http://localhost:4000//blog/empty-quarter/</link>
-        <guid isPermaLink="true">http://localhost:4000//blog/empty-quarter/</guid>
       </item>
     
   </channel>

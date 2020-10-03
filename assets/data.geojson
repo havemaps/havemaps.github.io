@@ -14,6 +14,7 @@
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/serowe\/\">Serowe<\/a>", "Place": "Serowe, Botswana" }, "geometry": { "type": "Point", "coordinates": [ 26.713597, -22.403465 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/al-khazneh\/\">Al-Khazneh<\/a>", "Place": "Petra, Jordan" }, "geometry": { "type": "Point", "coordinates": [ 35.445693, 30.329121 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/lexington\/\">Lexington<\/a>", "Place": "Lexington, Kentucky" }, "geometry": { "type": "Point", "coordinates": [ -84.502625, 38.050254 ] } },
-{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/oslo\/\">Oslo<\/a>", "Place": "Oslo, Norway" }, "geometry": { "type": "Point", "coordinates": [ 10.75396, 59.91385 ] } }
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/oslo\/\">Oslo<\/a>", "Place": "Oslo, Norway" }, "geometry": { "type": "Point", "coordinates": [ 10.75396, 59.91385 ] } },
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/rugby\/\">Rugby<\/a>", "Place": "Rugby, Tennessee" }, "geometry": { "type": "Point", "coordinates": [ -84.700605, 36.3609 ] } }
 ]
 }
