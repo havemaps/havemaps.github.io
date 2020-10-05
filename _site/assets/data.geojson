@@ -15,6 +15,8 @@
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/al-khazneh\/\">Al-Khazneh<\/a>", "Place": "Petra, Jordan" }, "geometry": { "type": "Point", "coordinates": [ 35.445693, 30.329121 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/lexington\/\">Lexington<\/a>", "Place": "Lexington, Kentucky" }, "geometry": { "type": "Point", "coordinates": [ -84.502625, 38.050254 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/oslo\/\">Oslo<\/a>", "Place": "Oslo, Norway" }, "geometry": { "type": "Point", "coordinates": [ 10.75396, 59.91385 ] } },
-{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/rugby\/\">Rugby<\/a>", "Place": "Rugby, Tennessee" }, "geometry": { "type": "Point", "coordinates": [ -84.700605, 36.3609 ] } }
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/rugby\/\">Rugby<\/a>", "Place": "Rugby, Tennessee" }, "geometry": { "type": "Point", "coordinates": [ -84.700605, 36.3609 ] } },
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/jerusalem\/\">Jerusalem<\/a>", "Place": "Jerusalem" }, "geometry": { "type": "Point", "coordinates": [ 35.221362, 31.769158 ] } },
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/three-sisters\/\">Three Sisters<\/a>", "Place": "Blue Mountains, Australia" }, "geometry": { "type": "Point", "coordinates": [ 150.313313, -33.731733 ] } }
 ]
 }
