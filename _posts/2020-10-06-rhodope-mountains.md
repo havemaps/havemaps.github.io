@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rhodope Mountains"
-date:   2020-10-06 11:17:01 +0400
+date:   2020-10-06 18:09:15 +0400
 categories: jekyll update
 ---
 <img src="//images.weserv.nl/?url=havemapswill.travel/img/2020-10-06-rhodope.jpeg&&w=500h=400&dpr=3" alt="Photo of grey sky, snow covered road and trees, and a car with one headlight driving toward the photographer. A snow covered car is parked on the right.">
