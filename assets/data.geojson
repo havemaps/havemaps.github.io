@@ -18,6 +18,7 @@
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/rugby\/\">Rugby<\/a>", "Place": "Rugby, Tennessee" }, "geometry": { "type": "Point", "coordinates": [ -84.700605, 36.3609 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/jerusalem\/\">Jerusalem<\/a>", "Place": "Jerusalem" }, "geometry": { "type": "Point", "coordinates": [ 35.221362, 31.769158 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/three-sisters\/\">Three Sisters<\/a>", "Place": "Blue Mountains, Australia" }, "geometry": { "type": "Point", "coordinates": [ 150.313313, -33.731733 ] } },
-{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/siem-reap\/\">Siem Reap<\/a>", "Place": "Siem Reap, Cambodia" }, "geometry": { "type": "Point", "coordinates": [ 103.86294, 13.367701 ] } }
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/siem-reap\/\">Siem Reap<\/a>", "Place": "Siem Reap, Cambodia" }, "geometry": { "type": "Point", "coordinates": [ 103.86294, 13.367701 ] } },
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/ashgabat\/\">Ashgabat<\/a>", "Place": "Ashgabat, Turkmenistan" }, "geometry": { "type": "Point", "coordinates": [ 58.344355, 37.963749 ] } }
 ]
 }
