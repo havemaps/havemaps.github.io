@@ -20,6 +20,7 @@
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/three-sisters\/\">Three Sisters<\/a>", "Place": "Blue Mountains, Australia" }, "geometry": { "type": "Point", "coordinates": [ 150.313313, -33.731733 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/siem-reap\/\">Siem Reap<\/a>", "Place": "Siem Reap, Cambodia" }, "geometry": { "type": "Point", "coordinates": [ 103.86294, 13.367701 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/ashgabat\/\">Ashgabat<\/a>", "Place": "Ashgabat, Turkmenistan" }, "geometry": { "type": "Point", "coordinates": [ 58.344355, 37.963749 ] } },
-{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/museum-of-books\/\">Museum of Books<\/a>", "Place": "Tbilisi, Georgia" }, "geometry": { "type": "Point", "coordinates": [ 44.81688, 41.717341 ] } }
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/museum-of-books\/\">Museum of Books<\/a>", "Place": "Tbilisi, Georgia" }, "geometry": { "type": "Point", "coordinates": [ 44.81688, 41.717341 ] } },
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/planet-baobab\/\">Planet Baobab<\/a>", "Place": "Gweta, Botswana" }, "geometry": { "type": "Point", "coordinates": [ 25.252504, -20.21111 ] } }
 ]
 }
