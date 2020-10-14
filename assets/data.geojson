@@ -22,6 +22,7 @@
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/ashgabat\/\">Ashgabat<\/a>", "Place": "Ashgabat, Turkmenistan" }, "geometry": { "type": "Point", "coordinates": [ 58.344355, 37.963749 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/museum-of-books\/\">Museum of Books<\/a>", "Place": "Tbilisi, Georgia" }, "geometry": { "type": "Point", "coordinates": [ 44.81688, 41.717341 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/planet-baobab\/\">Planet Baobab<\/a>", "Place": "Gweta, Botswana" }, "geometry": { "type": "Point", "coordinates": [ 25.252504, -20.21111 ] } },
-{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/paris\/\">Paris<\/a>", "Place": "Paris, France" }, "geometry": { "type": "Point", "coordinates": [ 2.347536, 48.858126 ] } }
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/paris\/\">Paris<\/a>", "Place": "Paris, France" }, "geometry": { "type": "Point", "coordinates": [ 2.347536, 48.858126 ] } },
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/antarctica\/\">Antarctica<\/a>", "Place": "Antarctica" }, "geometry": { "type": "Point", "coordinates": [ -64.268465, -66.346288 ] } }
 ]
 }
