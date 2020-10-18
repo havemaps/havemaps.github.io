@@ -24,6 +24,7 @@
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/planet-baobab\/\">Planet Baobab<\/a>", "Place": "Gweta, Botswana" }, "geometry": { "type": "Point", "coordinates": [ 25.252504, -20.21111 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/paris\/\">Paris<\/a>", "Place": "Paris, France" }, "geometry": { "type": "Point", "coordinates": [ 2.347536, 48.858126 ] } },
 { "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/antarctica\/\">Antarctica<\/a>", "Place": "Antarctica" }, "geometry": { "type": "Point", "coordinates": [ -64.268465, -66.346288 ] } },
-{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/tiberias\/\">Tiberias<\/a>", "Place": "Tiberias, Israel" }, "geometry": { "type": "Point", "coordinates": [ 35.53274, 32.79633 ] } }
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/tiberias\/\">Tiberias<\/a>", "Place": "Tiberias, Israel" }, "geometry": { "type": "Point", "coordinates": [ 35.53274, 32.79633 ] } },
+{ "type": "Feature", "properties": { "Post": "<a href=\"https:\/\/havemapswill.travel\/blog\/gelati-monastery\/\">Gelati Monastery<\/a>", "Place": "Kutaisi, Georgia" }, "geometry": { "type": "Point", "coordinates": [ 42.719993, 42.267017 ] } }
 ]
 }
