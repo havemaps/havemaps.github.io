@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Beirut"
+title:  "Propaganda"
 date:   2021-01-09 18:52:01 +0400
 categories: jekyll update
 ---
